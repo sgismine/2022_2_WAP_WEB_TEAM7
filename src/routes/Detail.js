@@ -89,6 +89,7 @@ function Detail(props){
         <button onClick={()=>(props.setwindow(false),set_detail_price1(0),set_detail_price2(0),set_order_count(1))}>취소</button>
         <button onClick={()=> save_order()}>주문담기</button>
       </footer>
+      <h2>hihi</h2>
     </div>
 );
 }
